@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Youtube, ArrowUpRight, Truck } from 'lucide-react';
+import { Mail, Phone, MapPin, Globe, ArrowUpRight, Truck } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -35,10 +35,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, url: '#' },
-    { name: 'Twitter', icon: Twitter, url: '#' },
-    { name: 'Facebook', icon: Facebook, url: '#' },
-    { name: 'YouTube', icon: Youtube, url: '#' },
+    { name: 'LinkedIn', icon: Globe, url: '#' },
+    { name: 'Twitter', icon: Globe, url: '#' },
+    { name: 'Facebook', icon: Globe, url: '#' },
+    { name: 'YouTube', icon: Globe, url: '#' },
   ];
 
   return (
